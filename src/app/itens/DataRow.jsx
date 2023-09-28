@@ -9,8 +9,8 @@ export default function DataRow({item}){
               <span>{item.nome}</span>
             </div>
             <div className="flex gap-2 items-center">
-              <span>R$148.00</span>
-              <DropMenu />
+              <span>R$100.00</span>
+              <DropMenu idItem={item.id} />
             </div>
         </div>
     )
